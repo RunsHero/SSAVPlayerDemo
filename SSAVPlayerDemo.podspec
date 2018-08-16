@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
 
   s.name         = "SSAVPlayerDemo"
   s.version      = "1.0.0"
-  s.summary      = "SSAVPlayerDemo."
+  s.summary      = "A tool for video player."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-	SSAVPlayerDemo
-                   DESC
+	A tool base on AVPlayer
+        DESC
 
   s.homepage     = "https://github.com/RunsHero/SSAVPlayerDemo.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -53,10 +53,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "" => "" }
-  # Or just: s.author    = ""
-  # s.authors            = { "" => "" }
-  # s.social_media_url   = "http://twitter.com/"
+  s.author             = { "shishi" => "14741157354@163.com" }
+  # Or just: s.author    = "shishi"
+  # s.authors            = { "shishi" => "14741157354@163.com" }
+  # s.social_media_url   = "http://twitter.com/shishi"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/RunsHero/SSAVPlayerDemo.git", :tag => "{s.version}" }
+  s.source       = { :git => "https://github.com/RunsHero/SSAVPlayerDemo.git", :tag => "#{s.version}" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
