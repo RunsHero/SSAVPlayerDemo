@@ -25,7 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-	A tool base on AVPlayer
+	A tool base on AVPlayer,A tool for video player.
         DESC
 
   s.homepage     = "https://github.com/RunsHero/SSAVPlayerDemo.git"
